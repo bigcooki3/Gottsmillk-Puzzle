@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>Puzzle 3</title>
+        <link type="text/css" rel="stylesheet" href="css/style.css"/>
+		<link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+		<link href="https://fonts.googleapis.com/css?family=Poppins:600" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <script src="js/main.js"></script>
+		<style>
+			body{background-image: url("img/fabric.png");}
+			h1{font-family: Poppins, Arial, sans-serif;}
+			p{font-family: Montserrat, Andale Mono, serif}
+		</style>
+	</head>
+	<body>
+    		<h1>Puzzle 3</h1>
+			<p style="font-size:4vmin;">Now we're talking.</p>
+			<img src="img/screen.png" style="height:300px;width:300px;">
+    		<p>Enter password:</p>
+            <form id='formName' onsubmit='puzzle3(); return false;'>
+            <input type='text' class='password' id='userInput' value=''>
+			<div id="hint">
+				<input id="toggle" type="checkbox" unchecked>
+	  			<label for="toggle">Hint</label>
+				<div id="expand">
+					<p>Having trouble with the missing variable? Think a variable of yours that's changed today.</br><a href="http://rumkin.com/tools/cipher/caesar.php" target="_blank">Extra hint.</a></p>
+				</div>
+			</div>
+	</body>
+</html>

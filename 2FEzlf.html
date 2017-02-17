@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>Puzzle 2</title>
+        <link type="text/css" rel="stylesheet" href="css/style.css"/>
+		<link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Caveat+Brush" rel="stylesheet">
+        <script src="js/main.js"></script>
+		<style>
+			body{background-image: url("img/stripes.gif");color:black;}
+			h1{font-family: Oswald, Consolas, serif;}
+			p{font-family: Open Sans Condensed, Andale Mono, serif;}
+		</style>
+	</head>
+	<body>
+		<section style="background-color:white;">
+    		<h1>Puzzle 2</h1>
+			<p style="font-size:4vmin;">We're still getting warmed up.</p>
+			<p style="font:5vmin Caveat Brush, serif;"><img src="img/globe.png" style="height:300px;width:300px;"></br>YPFWMIP</p>
+    		<p>Enter password:
+            <form id='formName' onsubmit='puzzle2(); return false;'>
+            <input type='text' class='password' id='userInput' value=''>
+			</p>
+			<div id="hint">
+				<input id="toggle" type="checkbox" unchecked>
+	  			<label for="toggle">Hint</label>
+				<div id="expand">
+					<p>Pay attention not only to the words on the picture, but also what it depicts.</p>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>

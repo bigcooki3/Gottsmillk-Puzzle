@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>Puzzle 5</title>
+        <link type="text/css" rel="stylesheet" href="css/style.css"/>
+		<link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+		<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+        <script src="js/main.js"></script>
+		<style>
+			body{background-image: url("img/dark.jpg");color:#ffffff;}
+			h1{font-family:Inconsolata, Consolas, sans-serif;}
+			p{font-family: Playfair Display, Andale Mono, serif}
+		</style>
+	</head>
+	<body>
+		<h1>Puzzle 5</h1>
+		<p>Make sure your sound is on.</p>
+		<video controls autoplay><source src="img/video.mp4" type="video/mp4"></video>
+			<p>Enter password:</p>
+        <form id='formName' onsubmit='puzzle5(); return false;'>
+        <input type='text' class='password' id='userInput' value=''>
+		<div id="hint">
+			<input id="toggle" type="checkbox" unchecked>
+  			<label for="toggle">Hint</label>
+			<div id="expand">
+				<p>Draw out each element in the video, along with the amount of beeps it has.</br><a href="img/DontReadIntoThisTooMuch.mp3" target="_blank">If you need it, extra hint.</a></p>
+			</div>
+		</div>
+	</body>
+</html>

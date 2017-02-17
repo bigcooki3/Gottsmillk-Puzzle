@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>Puzzle 1</title>
+        <link type="text/css" rel="stylesheet" href="css/style.css"/>
+		<link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+		<link href="https://fonts.googleapis.com/css?family=Bahiana" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Barrio" rel="stylesheet">
+        <script src="js/main.js"></script>
+		<style>
+			body{background-image: url("img/ghost.jpg");}
+			h1{font-family: Barrio, Consolas, serif;}
+			p{font-family: Bahiana, Andale Mono, serif}
+		</style>
+	</head>
+	<body>
+    		<h1>Puzzle 1</h1>
+			<p style="font-size:4vmin;">Let's start with a riddle.</p>
+			<p>As soon as you take yours, many others are left behind.</p>
+    		<p>Enter password:</p>
+            <form id='formName' onsubmit='puzzle1(); return false;'>
+            <input type='text' class='password' id='userInput' value=''>
+			<div id="hint">
+				<input id="toggle" type="checkbox" unchecked>
+	  			<label for="toggle">Hint</label>
+				<div id="expand">
+					<p>It's an intangible object. The background image should help you on this one.</p>
+				</div>
+			</div>
+	</body>
+</html>
